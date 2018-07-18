@@ -1,0 +1,22 @@
+<pessoas tipo="Personagens" xsi:noNamespaceSchemaLocation="pessoas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<pessoa>
+		<nome>Joey Tribbiani</nome>
+		<idade>28</idade>
+	</pessoa>
+	<pessoa>
+		<nome>Monica Geller</nome>
+		<idade>28</idade>
+	</pessoa>
+	<pessoa>
+		<nome>Phoebe Buffay</nome>
+		<idade>28</idade>
+	</pessoa>
+	<pessoa>
+		<nome>Rachel Green</nome>
+		<idade>28</idade>
+	</pessoa>
+	<pessoa>
+		<nome>Ross Geller</nome>
+		<idade>28</idade>
+	</pessoa>
+</pessoas>

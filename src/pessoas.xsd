@@ -1,0 +1,19 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="pessoa">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="nome" type="xsd:string" />
+				<xsd:element name="idade" type="xsd:integer" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="pessoas">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="pessoa" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="tipo" type="xsd:string" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
